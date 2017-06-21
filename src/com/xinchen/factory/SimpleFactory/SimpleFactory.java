@@ -7,7 +7,7 @@ public class SimpleFactory {
 		}else if("RoyalGirl".equals(type)){
 			return new RoyalGirl();
 		}else{
-			throw new Exception("Ã»ÓĞÃÃ×Ó");
+			throw new Exception("æ²¡æœ‰å¥³ç›†å‹");
 		}
 	}
 }

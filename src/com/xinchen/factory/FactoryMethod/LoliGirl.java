@@ -2,6 +2,6 @@ package com.xinchen.factory.FactoryMethod;
 
 public class LoliGirl implements Girl{
 	public LoliGirl(){
-		System.out.println("ÂÜÀò±»´´½¨");
+		System.out.println("åˆ›å»ºèè‰å¥³å‹");
 	}
 }

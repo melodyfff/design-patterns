@@ -2,6 +2,6 @@ package com.xinchen.factory.AbstractFactory;
 
 public class GirlB implements Girl{
 	public GirlB() {
-		System.out.println("ĞÂ½¨Å®ÅèÓÑ-B");
+		System.out.println("åˆ›å»ºå¥³ç›†å‹-B");
 	}
 }

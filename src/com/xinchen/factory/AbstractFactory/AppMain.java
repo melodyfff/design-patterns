@@ -1,6 +1,6 @@
 package com.xinchen.factory.AbstractFactory;
 /**
- * ³éÏó¹¤³§
+ * æŠ½è±¡å·¥å‚
  * @author Xin Chen
  *
  */

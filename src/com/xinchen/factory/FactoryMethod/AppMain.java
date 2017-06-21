@@ -3,7 +3,7 @@ package com.xinchen.factory.FactoryMethod;
 import com.xinchen.factory.FactoryMethod.Method.CreateLoliGirl;
 import com.xinchen.factory.FactoryMethod.Method.CreateRoyalGirl;
 /**
- * 工厂方法
+ * 宸ュ巶鏂规硶
  * @author Xin Chen
  *
  */
