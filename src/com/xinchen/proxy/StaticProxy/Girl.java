@@ -1,4 +1,4 @@
-package com.xinchen.proxy;
+package com.xinchen.proxy.StaticProxy;
 /**
  * 一种类型的妹子
  * @author xinchen

@@ -1,4 +1,4 @@
-package com.xinchen.proxy;
+package com.xinchen.proxy.StaticProxy;
 
 public class AppMain {
 
