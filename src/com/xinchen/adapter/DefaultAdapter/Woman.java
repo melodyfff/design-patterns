@@ -1,7 +1,9 @@
 package com.xinchen.adapter.DefaultAdapter;
-
+/**
+ * @author Xin Chen
+ */
 public interface Woman {
-	void Attribute();
+	void attribute();
 	
-	void Posture();
+	void posture();
 }

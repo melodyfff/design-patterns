@@ -7,8 +7,8 @@ public class AppMain {
 		gf.sayGoodNight();
 		GirlFriend gf2 = GirlFriend.getInstance(null);
 		gf2.sayGoodNight();
-//		GirlFriend gf3 = GirlFriend.getInstance("test");
-//		gf3.sayGoodNight();
+		GirlFriend gf3 = GirlFriend.getInstance("test");
+		gf3.sayGoodNight();
 	}
 
 }

@@ -1,7 +1,11 @@
 package com.xinchen.adapter.DefaultAdapter;
-
+/**
+ * @author Xin Chen
+ */
 public abstract class BaseAdapter implements Woman{
-	public void Attribute() {}
+	@Override
+	public void attribute() {}
 	
-	public void Posture(){}
+	@Override
+	public void posture(){}
 }
