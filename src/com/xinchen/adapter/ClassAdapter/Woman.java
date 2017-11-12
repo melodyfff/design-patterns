@@ -1,7 +1,15 @@
 package com.xinchen.adapter.ClassAdapter;
-
+/**
+ * @author xinchen
+ */
 public interface Woman {
-	void Attribute();
-	
-	void Posture();
+	/**
+	 * 属性
+	 */
+	void attribute();
+
+	/**
+	 * 成长
+	 */
+	void growing();
 }

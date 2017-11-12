@@ -11,8 +11,8 @@ public class AppMain {
 
 	public static void main(String[] args) {
 		Woman girl = new Adapter("小张");
-		girl.Attribute();
-		girl.Posture();
+		girl.attribute();
+		girl.growing();
 	}
 
 }
