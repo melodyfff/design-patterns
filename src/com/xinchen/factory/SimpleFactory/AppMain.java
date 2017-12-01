@@ -1,6 +1,5 @@
 package com.xinchen.factory.SimpleFactory;
 /**
- * ¼òµ¥¹¤³§
  * @author Xin Chen
  *
  */
@@ -11,7 +10,6 @@ public class AppMain {
 			SimpleFactory.factory("RoyalGirl");
 			SimpleFactory.factory("");
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
