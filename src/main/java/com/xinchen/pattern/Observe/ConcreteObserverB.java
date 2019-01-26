@@ -5,9 +5,9 @@ package com.xinchen.pattern.Observe;
  * @version 1.0
  * @date Created In 2019/1/26 23:35
  */
-public class ConcreteObserverB extends Observer{
+public class ConcreteObserverB implements Observer{
     @Override
-    protected void update() {
+    public void update() {
         System.out.println("ConcreteObserverB accept and update...");
     }
 }

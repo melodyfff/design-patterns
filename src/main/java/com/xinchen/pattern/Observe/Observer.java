@@ -5,7 +5,7 @@ package com.xinchen.pattern.Observe;
  * @version 1.0
  * @date Created In 2019/1/26 23:33
  */
-public abstract class Observer {
+public interface Observer {
     /** 定义具体要执行的操作 */
-    protected abstract void update();
+    void update();
 }
