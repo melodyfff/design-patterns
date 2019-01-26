@@ -7,7 +7,9 @@ package com.xinchen.pattern.Observe;
  */
 public class ConcreteObserverA implements Observer{
     @Override
-    public void update() {
+    public void update(Subject observable,Object arg) {
         System.out.println("ConcreteObserverA accept and update...");
+        System.out.println("Object : "+ observable);
+        System.out.println("args : "+ arg);
     }
 }

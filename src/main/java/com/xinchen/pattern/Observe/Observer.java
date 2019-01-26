@@ -6,6 +6,10 @@ package com.xinchen.pattern.Observe;
  * @date Created In 2019/1/26 23:33
  */
 public interface Observer {
-    /** 定义具体要执行的操作 */
-    void update();
+    /**
+     * 定义观察者接口
+     * @param observable 被观察对象为Subject的子类
+     * @param arg 传参
+     */
+    void update(Subject observable,Object arg);
 }
