@@ -6,6 +6,9 @@ package com.xinchen.pattern.proxy;
  * @date 16/01/2019 14:28
  */
 public interface Subject {
-    /** 具体要做的事 */
-    void method();
+    /**
+     * 具体方法
+     * @param args 参数
+     */
+    void method(String args);
 }
