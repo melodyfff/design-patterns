@@ -18,8 +18,10 @@ public class CustomInvocationHandler implements InvocationHandler{
 
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-
-        return method.invoke(this.target,args);
+        System.out.println("前置通知...");
+        final Object invoke = method.invoke(this.target, args);
+        System.out.println("后置置通知...");
+        return invoke;
 
     }
 }
