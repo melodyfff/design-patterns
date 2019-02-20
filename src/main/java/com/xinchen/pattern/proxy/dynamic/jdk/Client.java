@@ -1,4 +1,4 @@
-package com.xinchen.pattern.proxy.dynamic;
+package com.xinchen.pattern.proxy.dynamic.jdk;
 
 /**
  * @author xinchen

@@ -1,5 +1,9 @@
 # 设计模式（Design Patterns）
 
+> 参考：
+- https://www.tutorialspoint.com/design_pattern/
+- https://www.w3cschool.cn/javadesignpattern/
+
 ## **创建型模式(5种)**  
     - 工厂方法模式
     - 抽象工厂模式
