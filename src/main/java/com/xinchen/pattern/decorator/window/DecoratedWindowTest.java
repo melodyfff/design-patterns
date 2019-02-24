@@ -9,11 +9,20 @@ package com.xinchen.pattern.decorator.window;
 public class DecoratedWindowTest {
     public static void main(String[] args) {
         // 装饰器动态追加功能
-        Window decoratedWindow = new HorizontalScrollBarDecorator(new VerticalScrollBarDecorator(new SimpleWindow()));
+        // 1. 简单窗口
+        final Window window = new SimpleWindow();
 
-        decoratedWindow.draw();
+        // 2. 向简单窗口追加垂直滚动条
+        final VerticalScrollBarDecorator verticalScrollBarDecorator = new VerticalScrollBarDecorator(window);
 
-        System.out.println(decoratedWindow.getDescription());
+        // 3. 向垂直滚动条窗口添加水平滚动条
+        final HorizontalScrollBarDecorator horizontalScrollBarDecorator = new HorizontalScrollBarDecorator(verticalScrollBarDecorator);
+
+        // 4. 绘画最终窗口
+        horizontalScrollBarDecorator.draw();
+
+        // 5. 打印窗口描述
+        System.out.println(horizontalScrollBarDecorator.getDescription());
         //  Draw simple window...
         //  Draw the vertical scrollbar...
         //  Draw the horizontal scrollbar...
