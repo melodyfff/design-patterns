@@ -7,8 +7,7 @@ package com.xinchen.pattern.proxy;
  */
 public class Client {
     public static void main(String[] args) {
-        RealSubject realSubject = new RealSubject();
-        Proxy proxy = new Proxy(realSubject);
-        proxy.method();
+        Proxy proxy = new Proxy("Hello");
+        proxy.method("World");
     }
 }
