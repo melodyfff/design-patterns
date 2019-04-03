@@ -1,4 +1,4 @@
-package com.xinchen.pattern.bridge;
+package com.xinchen.pattern.bridge.account;
 
 /**
  * 自定义日志打印接口
