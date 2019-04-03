@@ -28,6 +28,8 @@ public class Client {
         final FlyWeight compositeFlyweight2 = FlyWeightFactory.getCompositeFlyweight(internals);
         compositeFlyweight1.operation("compositeFlyweight1");
         compositeFlyweight2.operation("compositeFlyweight2");
+        System.out.println(compositeFlyweight1);
+        System.out.println(compositeFlyweight2);
         System.out.println(compositeFlyweight1 == compositeFlyweight2);
         System.out.println(UnSharedFlyWeight.UnSharedFlyWeightInCache());
     }
