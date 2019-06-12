@@ -1,4 +1,4 @@
-package com.xinchen.pattern.Observe.JDK;
+package com.xinchen.pattern.observe.jdk;
 
 import java.util.Observable;
 
