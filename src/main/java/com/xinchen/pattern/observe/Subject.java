@@ -1,7 +1,5 @@
-package com.xinchen.pattern.Observe;
+package com.xinchen.pattern.observe;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Vector;
 
 /**

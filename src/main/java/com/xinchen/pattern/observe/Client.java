@@ -1,4 +1,4 @@
-package com.xinchen.pattern.Observe;
+package com.xinchen.pattern.observe;
 
 /**
  * @author Xin Chen (xinchenmelody@gmail.com)

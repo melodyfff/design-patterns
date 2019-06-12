@@ -1,4 +1,4 @@
-package com.xinchen.pattern.Observe;
+package com.xinchen.pattern.observe;
 
 /**
  * 被观察对象
