@@ -1,4 +1,4 @@
-package com.xinchen.pattern.builder;
+package com.xinchen.pattern.builder.tradition;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

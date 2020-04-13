@@ -1,4 +1,4 @@
-package com.xinchen.pattern.builder;
+package com.xinchen.pattern.builder.tradition;
 
 /**
  * @author Xin Chen (xinchenmelody@gmail.com)
