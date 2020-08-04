@@ -1,4 +1,4 @@
-package com.xinchen.pattern.chain;
+package com.xinchen.pattern.chain.example;
 
 /**
  * @author xinchen
