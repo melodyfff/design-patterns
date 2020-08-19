@@ -1,8 +1,9 @@
 # 设计模式（Design Patterns）
 
 > 参考：
-- https://www.tutorialspoint.com/design_pattern/
-- https://www.w3cschool.cn/javadesignpattern/
+- [Design Patterns in Java Tutorial](https://www.tutorialspoint.com/design_pattern/)
+- [23种设计模式_w3cschool](https://www.w3cschool.cn/javadesignpattern/)
+- [java-design-patterns](https://github.com/iluwatar/java-design-patterns)
 
 ## **创建型模式(5种)**  
     - 工厂方法模式
