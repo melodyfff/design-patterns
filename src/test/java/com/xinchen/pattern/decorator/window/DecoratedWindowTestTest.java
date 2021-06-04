@@ -1,8 +1,9 @@
 package com.xinchen.pattern.decorator.window;
 
-import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
 
 /**
  * @author Xin Chen (xinchenmelody@gmail.com)
