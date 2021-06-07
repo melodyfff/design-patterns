@@ -8,7 +8,7 @@ import java.util.Optional;
 /**
  * 服务发现
  */
-abstract class ServiceDiscoveryService {
+class ServiceDiscoveryService {
 
   private final Map<String, ChoreographyChapter> services;
 

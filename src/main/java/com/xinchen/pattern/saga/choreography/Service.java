@@ -1,14 +1,14 @@
 package com.xinchen.pattern.saga.choreography;
 
 import java.util.function.Supplier;
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  *
  */
 abstract class Service implements ChoreographyChapter{
-  protected static final Log LOGGER = LogFactory.getLog(Service.class);
+  protected static final Logger LOGGER = LoggerFactory.getLogger(Service.class);
 
   private final ServiceDiscoveryService sd;
 
@@ -74,7 +74,7 @@ abstract class Service implements ChoreographyChapter{
     Object inVal = saga.getCurrentValue();
 
     LOGGER.info("The chapter '"+getName()+"' has been started. "
-            + "The data "+inVal+" has been stored or calculated successfully");
+            + "The data '"+inVal+"' has been stored or calculated successfully");
 
     saga.setCurrentStatus(Saga.ChapterResult.SUCCESS);
 
@@ -88,7 +88,7 @@ abstract class Service implements ChoreographyChapter{
     Object inVal = saga.getCurrentValue();
     // 这里其实可以有真正的回滚逻辑操作
     LOGGER.info("The Rollback for a chapter '"+getName()+"' has been started. "
-            + "The data "+inVal+" has been rollbacked successfully");
+            + "The data '"+inVal+"' has been rollbacked successfully");
     // 设置saga中的chapter状态为rollback
     saga.setCurrentStatus(Saga.ChapterResult.ROLLBACK);
     // 这里可以放回滚后的值
@@ -103,8 +103,8 @@ abstract class Service implements ChoreographyChapter{
   }
 
   private boolean isSagaFinished(Saga saga){
-    // 判断list中是否还存在chapter
-    if (saga.isPresentChapter()){
+    // 判断list中是否还存在chapter,若是不存在，走服务发现，执行下一个saga
+    if (!saga.isPresentChapter()){
       saga.setFinished(true);
       LOGGER.info(" the saga has been finished with "+saga.getResult()+" status");
       return true;

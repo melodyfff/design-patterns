@@ -18,5 +18,6 @@
  *
  * see [How Choreography-Based-saga works in microservices] https://www.kindsonthegenius.com/microservices/how-choreography-based-saga-works-in-microservices/
  * see [Orchestration-based Saga using Cadence Workflow] https://sultanov.dev/blog/orchestration-based-saga-using-cadence/
+ * see https://github.com/iluwatar/java-design-patterns/tree/master/saga
  */
 package com.xinchen.pattern.saga;
